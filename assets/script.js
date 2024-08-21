@@ -25,7 +25,7 @@
         e && e.meta && (i.m = JSON.stringify(e.meta)),
         e && e.props && (i.p = e.props),
         new XMLHttpRequest);
-        n.open("POST", l, !0),
+        n.open("GET", l, !0),
         n.setRequestHeader("Content-Type", "text/plain"),
         n.send(JSON.stringify(i)),
         n.onreadystatechange = function() {
