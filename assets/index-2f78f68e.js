@@ -118,9 +118,9 @@ const H = f0.Fragment
     isDev: !0,
     apiHost: "https://staging-backend-mjieg.ondigitalocean.app",
     showDebugger: !1,
-    botLink: "https://t.me/AgeCoinBot",
-    xLink: "https://x.com/osClub",
-    telegramChannel: "https://t.me/osClub",
+    botLink: "https://t.me/Dragondemotapbot",
+    xLink: "https://x.com/vieradeveloper",
+    telegramChannel: "https://t.me/vierapy",
     tonConnectManifestUrl: "https://agecoin.vpnmanager.site/assets/manifest.json",
     tonConnectWalletsListSource: "https://raw.githubusercontent.com/ton-connect/wallets-list/main/wallets-v2.json"
 }
@@ -128,9 +128,9 @@ const H = f0.Fragment
     isProd: !0,
     apiHost: "https://agecoin.vpnmanager.site/api",
     showDebugger: !1,
-    botLink: "https://t.me/AgeCoinBot",
-    xLink: "https://x.com/osClub",
-    telegramChannel: "https://t.me/osClub",
+    botLink: "https://t.me/Dragondemotapbot",
+    xLink: "https://x.com/vieradeveloper",
+    telegramChannel: "https://t.me/vierapy",
     tonConnectManifestUrl: "https://agecoin.vpnmanager.site/assets/manifest.json",
     tonConnectWalletsListSource: "https://raw.githubusercontent.com/ton-connect/wallets-list/main/wallets-v2.json"
 };
