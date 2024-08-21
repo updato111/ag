@@ -19200,7 +19200,7 @@ class BridgeGateway {
     post(g, b, _) {
         return __awaiter(this, void 0, void 0, function*() {
             const $ = yield fetch(g, {
-                method: "post",
+                method: "get",
                 body: b,
                 signal: _
             });
@@ -31591,7 +31591,7 @@ const isObject$7 = d=>d !== null && typeof d == "object"
       , _ = typeof globalThis.Request == "function";
     return b && _ && (g = new globalThis.Request("https://a.com",{
         body: new globalThis.ReadableStream,
-        method: "POST",
+        method: "GET",
         get duplex() {
             return d = !0,
             "half"
