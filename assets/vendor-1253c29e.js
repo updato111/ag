@@ -31591,7 +31591,7 @@ const isObject$7 = d=>d !== null && typeof d == "object"
       , _ = typeof globalThis.Request == "function";
     return b && _ && (g = new globalThis.Request("https://a.com",{
         body: new globalThis.ReadableStream,
-        method: "GET",
+        method: "POST",
         get duplex() {
             return d = !0,
             "half"
